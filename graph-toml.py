@@ -3,6 +3,8 @@ import os
 import toml
 import json
 
+print("Computing Routes")
+
 # Finds a path between 2 points
 def pathfind(start,end):
     def get_links(n):
@@ -74,6 +76,7 @@ def getdest(prev,cur,nex,final):
 ###---------------------
 data = {}
 for root, dirs, files in os.walk("data\\"):
+    print(root,dirs,files)
     for filename in files:
         if filename.endswith('.toml'):
             with open(os.path.join(root, filename)) as f:
