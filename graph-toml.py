@@ -6,12 +6,13 @@ import json
 
 print("Computing Routes")
 
-def distance(n1,n2):
-    dis = 0
-
-    if not 'x' in data[n1] or not 'z' in data[n1] or not 'x' in data[n2] or not 'z' in data[n2]:
+def distance(n0,n1,n2):
+    if not 'x' in data[n2] or not 'z' in data[n2]:
         return 0
-    p1 = [data[n1]['x'],data[n1]['z']]
+    if not 'x' in data[n1] or not 'z' in data[n1]:
+        p1 = [data[n0]['x'],data[n0]['z']]
+    else:
+        p1 = [data[n1]['x'],data[n1]['z']]
     p2 = [data[n2]['x'],data[n2]['z']]
 
     return dist(p1,p2)
@@ -30,11 +31,11 @@ def pathfind(start,end):
     path[start] = start
     while len(open_list) > 0:
         cur_node = None
-        
+
         for n in open_list:
             if cur_node == None:
                 cur_node = n
-            elif distance(n,end) < distance(cur_node,end):
+            elif distance(path[n],n,end) < distance(path[cur_node],cur_node,end):
                 cur_node = n
             
         open_list.remove(cur_node)
