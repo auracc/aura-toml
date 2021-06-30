@@ -1,0 +1,12 @@
+name = ["Wesbury"]
+
+type = "stop"
+dest = "wesbury"
+
+x = -5130
+z = 3380
+
+links = ["south_augusta"]
+
+station = true
+surface = true

@@ -1,0 +1,8 @@
+type = "crossing"
+x = -6700
+z = 500
+
+links=[
+"mount_september",
+"hits"
+]

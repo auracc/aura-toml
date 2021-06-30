@@ -1,0 +1,17 @@
+name = ["South Augusta","SA"]
+
+type = "junctionstop"
+dest = "sa"
+dest_stop = "sawc"
+
+x = -6041
+z = 3775
+
+links = [
+    "mount_september",
+#    "gor",
+    "wesbury"
+]
+
+station = true
+surface = true

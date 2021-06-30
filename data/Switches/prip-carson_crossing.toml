@@ -1,0 +1,8 @@
+type = "crossing"
+x = 4200
+z = 2500
+
+links=[
+"carson",
+"mta-pripyat"
+]

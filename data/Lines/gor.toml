@@ -1,0 +1,15 @@
+name = "GOR"
+
+type = "line"
+dest_a = "gor:north"
+dest_b = "gor:south"
+
+links = [
+    "gor-september_crossing",
+    "mount_augusta-surface",
+    "little_ukraine",
+    "csa"
+#   "south_augusta"       # connected to the GOR, lacking directional routing support
+]
+
+surface = true

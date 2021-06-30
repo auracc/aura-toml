@@ -1,0 +1,17 @@
+# Note: MtS junction is not a bounceback safe station, errors may occur as a result
+
+name = ["Mount September","MtS"]
+
+type = "stopjunction"
+dest = "september"
+dest_junction = "sept:thru"
+
+x = -4947
+z = 2215
+
+links = ["csr","hits-christmas_junction","south_augusta"]
+
+station = true
+
+[link_dests]
+hits-christmas_junction = "hits"

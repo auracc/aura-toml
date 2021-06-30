@@ -1,0 +1,10 @@
+type = "crossing"
+x = -5575
+z = 2023
+
+links=[
+"mount_september-surface",
+"gor"
+]
+
+surface = true

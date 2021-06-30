@@ -1,0 +1,12 @@
+name = "CSR"
+
+type = "line"
+dest_a = "csr:west"
+dest_b = "csr:east"
+
+links = [
+    "little_leningrad",
+    "csa",
+    "fuzzy_quarter",
+    "mount_september"
+]

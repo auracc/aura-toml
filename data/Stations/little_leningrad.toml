@@ -1,0 +1,11 @@
+name = ["Little Lenigrad","LL"]
+
+type = "stop"
+dest = ".ll"
+
+x = -6682
+z = 3366
+
+links = ["csr"]
+
+station = true

@@ -1,0 +1,11 @@
+name = "Carson"
+
+type = "stop"
+dest = "carson"
+
+x = 4200
+z = 1750
+
+links = ["prip-carson_crossing"]
+
+station = true

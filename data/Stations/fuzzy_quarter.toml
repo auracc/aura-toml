@@ -1,0 +1,11 @@
+name = "Fuzzy Quarter"
+x = -5637
+z = 2943
+
+type = "stop"
+dest = ".fq"
+
+links = ["csr"]
+
+station = true
+horse = true

@@ -1,0 +1,12 @@
+name = ["Mount September (surface)","MtS (surface)"]
+
+type = "stop"
+dest = "september"
+
+x = -5575
+z = 2320
+
+links = ["gor-september_crossing"]
+
+station = true
+surface = true

@@ -1,0 +1,15 @@
+name = ["Lumière","Lumiere"]
+
+type = "junctionstop"
+dest = "lumiere"
+dest_stop = "lumiere:exit"
+
+x = -7928
+z = -2534
+
+links = ["hits"]
+
+station = true
+
+[link_dests]
+hits = "lumiere:hits"

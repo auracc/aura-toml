@@ -1,0 +1,13 @@
+name = "MtA - Pripyat"
+
+type = "line"
+dest_a = "prip:west"
+dest_b = "prip:east"
+
+"links" = [
+    "csa",
+    "little_hellsinki",
+    "little_mushie",
+    "prip-carson_crossing",
+    "pripyat"
+]

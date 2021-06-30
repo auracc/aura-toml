@@ -1,0 +1,11 @@
+name = "HITS"
+
+type = "line"
+dest_a = "hits:north"
+dest_b = "hits:south"
+
+links = [
+    "impasse",
+    "hits-lumiere",
+    "hits-christmas_junction"
+]

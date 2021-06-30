@@ -1,0 +1,10 @@
+name = ["Mount Augusta (surface)","MtA (surface)"]
+x = -6702
+z = 3024
+type = "stop"
+
+links = ["gor"]
+
+dest = "mta"
+station = true
+surface = true

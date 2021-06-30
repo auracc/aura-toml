@@ -1,0 +1,12 @@
+name = ["Little Mushie","LMushie","LMush"]
+
+type = "stop"
+dest = "lmushie"
+
+x = -2711
+z = 3636
+
+links = ["mta-pripyat"]
+
+station = true
+suggested = false

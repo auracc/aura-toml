@@ -1,0 +1,16 @@
+name = ["CSA","Confederation of Socialist Augusta"]
+x = -6403
+z = 3504
+
+type = "stopjunction"
+dest = ".csa"
+dest_junction = ".csa:j"
+
+links = [
+    "gor",
+    "mta-pripyat",
+    "csr"
+]
+
+station = true
+horse = true

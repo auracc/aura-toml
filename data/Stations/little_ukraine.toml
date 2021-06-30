@@ -1,0 +1,12 @@
+name = ["Litle Ukraine","LUk"]
+
+type = "stop"
+dest = ".luk"
+
+x = -6555
+z = 3375
+
+links = ["gor"]
+
+station = true
+surface = true

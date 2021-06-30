@@ -1,0 +1,11 @@
+name = ["Pripyat"]
+
+type = "stop"
+dest = "pripyat"
+
+x = 6250
+z = 2400
+
+links = ["mta-pripyat"]
+
+station = true
