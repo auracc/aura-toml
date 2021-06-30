@@ -12,5 +12,5 @@ links = ["hits-lumiere_crossing","lusitania-lumiere"]
 station = true
 
 [link_dests]
-hits = "lumiere:hits"
+hits-lumiere_crossing = "lumiere:hits"
 lusitania-lumiere = "j:lusitania"
