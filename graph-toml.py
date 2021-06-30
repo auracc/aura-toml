@@ -29,32 +29,28 @@ def pathfind(start,end):
     closed_list = set([])
     path = {}
     path[start] = start
-    while len(open_list) > 0:
-        cur_node = None
 
+    while len(open_list) > 0:
+        cn = None
         for n in open_list:
-            if cur_node == None:
-                cur_node = n
-            elif distance(path[n],n,end) < distance(path[cur_node],cur_node,end):
-                cur_node = n
-            
-        open_list.remove(cur_node)
-        closed_list.add(cur_node)
-        if cur_node == end:
+            if cn == None:
+                cn = n
+            elif distance(path[path[n]],path[n],n)+distance(path[n],n,end) < distance(path[path[cn]],path[cn],cn)+distance(path[cn],cn,end):
+                cn = n 
+        open_list.remove(cn)
+        closed_list.add(cn)
+        if cn == end:
             reconst_path = []
-            n = cur_node
+            n = cn
             while n != start:
                 reconst_path.append(n)
                 n = path[n]
-
             reconst_path.append(start)
-            
             reconst_path.reverse()
-
             return reconst_path
-        for link in get_links(cur_node):
+        for link in get_links(cn):
             if link not in closed_list:
-                path[link] = cur_node
+                path[link] = cn
                 open_list.add(link)
 
     return None
@@ -127,6 +123,9 @@ for s in data:
             print(path,cmd)
             dests['{} - {}'.format(s,e)] = '/dest {}'.format(" ".join(cmd))
 
+###---------------------
+### Write to file
+###---------------------
 computed = {}
 computed['nodes'] = data
 computed['dests'] = dests
