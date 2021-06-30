@@ -75,7 +75,7 @@ def getdest(prev,cur,nex,final):
 ### Load the toml data files
 ###---------------------
 data = {}
-for root, dirs, files in os.walk("data\\"):
+for root, dirs, files in os.walk(r'./data'):
     print(root,dirs,files)
     for filename in files:
         if filename.endswith('.toml'):
