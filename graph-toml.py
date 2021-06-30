@@ -69,9 +69,11 @@ def getdest(prev,cur,nex,final):
             if l == nex:
                 e = i
         if s > e:
-            cmd.append(data[cur]['dest_a'])
+            if 'dest_a' in data[cur]:
+                cmd.append(data[cur]['dest_a'])
         else:
-            cmd.append(data[cur]['dest_b'])
+            if 'dest_b' in data[cur]:
+                cmd.append(data[cur]['dest_b'])
     if 'dest' in data[nex]:
         cmd.append(data[nex]['dest'])
     if final:

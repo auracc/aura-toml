@@ -1,7 +1,7 @@
 name = ["Little Hellsinki","Little Helsinki","LHell"]
 
 type = "stop"
-dest = "lhell" # needs updating to .lhell
+dest = ".lhell"
 
 x = -5082
 z = 3636

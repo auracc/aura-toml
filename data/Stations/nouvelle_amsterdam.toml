@@ -1,0 +1,12 @@
+name = ["Nouvelle Amsterdam","New Amsterdam","NA"]
+
+type = "stop"
+dest = "lumiere:na"
+
+x = -8170
+z = -2665
+
+links = ["lusitania-lumiere_crossing"]
+
+station = true
+horse = true

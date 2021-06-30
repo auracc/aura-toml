@@ -1,0 +1,9 @@
+name = "Lusitania - Lumière Rail"
+
+type = "line"
+
+"links" = [
+    "lusitania",
+    "lusitania-lumiere_crossing",
+    "lumiere"
+]

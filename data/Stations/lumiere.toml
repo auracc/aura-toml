@@ -7,9 +7,10 @@ dest_stop = "lumiere:exit"
 x = -7928
 z = -2534
 
-links = ["hits"]
+links = ["hits-lumiere_crossing","lusitania-lumiere"]
 
 station = true
 
 [link_dests]
 hits = "lumiere:hits"
+lusitania-lumiere = "j:lusitania"

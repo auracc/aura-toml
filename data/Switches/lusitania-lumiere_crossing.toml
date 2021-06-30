@@ -1,0 +1,13 @@
+# A crossing between several
+
+name = "Lusitania-Amsterdam Crossing"
+
+type = "crossing"
+
+x = -8170
+z = -2745
+
+"links" = [
+    "lusitania-lumiere",
+    "nouvelle_amsterdam",
+]
