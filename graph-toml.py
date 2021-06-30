@@ -1,6 +1,7 @@
 from collections import deque
 import os
 import toml
+import json
 
 # Finds a path between 2 points
 def pathfind(start,end):
@@ -94,6 +95,7 @@ for node in data:
 ###---------------------
 ### Compute all routes
 ###---------------------
+dests = {}
 for s in data:
     for e in data:
         if s != e and "station" in data[s] and "station" in data[e] and data[s]["station"] and data[e]["station"]:
@@ -104,5 +106,12 @@ for s in data:
                 if i > 0:
                     prev = path[i-1]
                 cmd.extend(getdest(prev,path[i],path[i+1],i==len(path)-2))
-            print(path)
-            print(cmd)
+            print(path,cmd)
+            dests['{} - {}'.format(s,e)] = '/dest {}'.format(" ".join(cmd))
+
+computed = {}
+computed['nodes'] = data
+computed['dests'] = dests
+
+with open('computed.json','w') as f:
+    f.write(json.dumps(computed))
