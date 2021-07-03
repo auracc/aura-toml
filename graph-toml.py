@@ -35,7 +35,7 @@ def pathfind(start,end):
         for n in open_list:
             if cn == None:
                 cn = n
-            elif distance(path[path[n]],path[n],n)+distance(path[n],n,end) < distance(path[path[cn]],path[cn],cn)+distance(path[cn],cn,end):
+            elif distance(path[n],n,end) < distance(path[cn],cn,end):
                 cn = n 
         open_list.remove(cn)
         closed_list.add(cn)

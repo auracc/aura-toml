@@ -1,0 +1,13 @@
+# Internal Lumiere rail station
+name = ["Petite Picardie","Picardie","Picardy"]
+
+type = "stop"
+dest = "lumiere:pic"
+
+x = -8450
+z = -2850
+
+links = ["lusitania-lumiere_crossing"]
+
+station = true
+suggested = false
