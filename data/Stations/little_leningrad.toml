@@ -6,6 +6,9 @@ dest = ".ll"
 x = -6682
 z = 3366
 
-links = ["csr"]
+links = [
+"csr",
+"mta-pripyat"
+]
 
 station = true

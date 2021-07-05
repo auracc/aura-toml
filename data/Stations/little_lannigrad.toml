@@ -1,0 +1,13 @@
+name = ["Little Lannigrad","LLg","Lannigrad"]
+
+type = "stop"
+dest = ".lanni"
+
+x = -11940
+z = 760
+
+links = [
+"roma-cw-lannigrad_crossing"
+]
+
+station = true

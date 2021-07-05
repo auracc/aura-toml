@@ -1,0 +1,10 @@
+name = "SPQR - Westminster Rail"
+
+type = "line"
+dest_a = "romacw:north"
+dest_b = "romacw:south"
+
+"links" = [
+    "roma-cw-lannigrad_crossing",
+    "roma-cw-pripyat_crossing",
+]

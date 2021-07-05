@@ -5,6 +5,8 @@ dest_a = "prip:west"
 dest_b = "prip:east"
 
 "links" = [
+    "roma-cw-pripyat_crossing",
+    "little_leningrad",
     "csa",
     "little_hellsinki",
     "little_mushie",

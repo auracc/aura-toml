@@ -1,0 +1,8 @@
+type = "crossing"
+x = -7455
+z = 3776
+
+links=[
+"roma-cw",
+"mta-pripyat"
+]
