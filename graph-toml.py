@@ -86,24 +86,28 @@ def getdest(prev,cur,nex,final):
     if data[cur]['type'] == 'line':
         s,e = lineroutedirection(cur,prev,nex)
         if s > e:
-            dest_a = ''
+            dest_a = None
             if 'dest_a' in data[cur]:
                 dest_a = data[cur]['dest_a']
             if 'local_dests' in data[cur]:
                 for local in data[cur]['local_dests']:
                   if prev in local['links'] and 'dest_a' in local:
                       dest_a = local['dest_a']
-            cmd.append(dest_a)     
+            if dest_a:
+              cmd.append(dest_a)     
         else:
-            dest_b = ''
+            dest_b = None
             if 'dest_b' in data[cur]:
                 dest_b = data[cur]['dest_b']
             if 'local_dests' in data[cur]:
                 for local in data[cur]['local_dests']:
                   if prev in local['links'] and 'dest_b' in local:
                       dest_b = local['dest_b']
-            cmd.append(dest_b) 
-    if 'dest' in data[nex]:
+            if dest_b:
+              cmd.append(dest_b)
+    if 'bad_links' in data[cur] and nex in data[cur]['bad_links']:
+       cmd.append(data[cur]['bad_links'][nex])
+    elif 'dest' in data[nex]:
         cmd.append(data[nex]['dest'])
     if final:
         if data[nex]['type'] == 'junctionstop':

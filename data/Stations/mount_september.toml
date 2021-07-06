@@ -20,3 +20,6 @@ station = true
 
 [link_dests]
 hits-christmas_crossing = "hits"
+
+[bad_links]
+gabon = "gabon" # pending adding new entries to switches

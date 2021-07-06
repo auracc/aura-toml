@@ -1,4 +1,4 @@
-name = "Gabon"
+name = ["Gabon","Salisbury"]
 
 type = "stop"
 dest = ".gabon"
