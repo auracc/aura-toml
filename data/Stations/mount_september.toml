@@ -18,4 +18,4 @@ links = [
 station = true
 
 [link_dests]
-hits-christmas_junction = "hits"
+hits-christmas_crossing = "hits"
