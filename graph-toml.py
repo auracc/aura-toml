@@ -10,15 +10,24 @@ def distance(n0,n1,n2):
     if not 'x' in data[n2] or not 'z' in data[n2]:
         return 0
     if not 'x' in data[n1] or not 'z' in data[n1]:
-        #return 0
-        p1 = [data[n0]['x'],data[n0]['z']]
+        return 0
+        #p1 = [data[n0]['x'],data[n0]['z']]
     else:
         p1 = [data[n1]['x'],data[n1]['z']]
     p2 = [data[n2]['x'],data[n2]['z']]
 
     #print("DISTANCE",n0,n1,n2,dist(p1,p2))
     return dist(p1,p2)
-
+    
+def lineroutedirection(cur,prev,nex):
+  s,e = 0,0
+  for i in range(len(data[cur]['links'])):
+      l = data[cur]['links'][i]
+      if l == prev:
+          s = i
+      if l == nex:
+          e = i
+  return s,e
 # Finds a path between 2 points
 def pathfind(start,end):
     def get_links(n):
@@ -55,7 +64,16 @@ def pathfind(start,end):
         for link in get_links(cn):
             if link not in closed_list:
                 path[link] = cn
-                dista[link] = dista[cn] + distance(path[cn],cn,link) + 0
+                dista_line = 0
+                if data[cn]['type'] == 'line':
+                    s,e = lineroutedirection(cn,path[cn],link)
+                    if s > e:
+                      hi,lo = s,e
+                    else:
+                      hi,lo = e,s
+                    for i in range(lo,hi):
+                      dista_line += distance(None,data[cn]['links'][i],data[cn]['links'][i+1])
+                dista[link] = dista[cn] + distance(path[cn],cn,link) + dista_line
                 open_list.add(link)
 
     return None
@@ -66,19 +84,25 @@ def getdest(prev,cur,nex,final):
     if 'link_dests' in data[cur] and nex in data[cur]['link_dests']:
         cmd.append(data[cur]['link_dests'][nex])
     if data[cur]['type'] == 'line':
-        s,e = 0,0
-        for i in range(len(data[cur]['links'])):
-            l = data[cur]['links'][i]
-            if l == prev:
-                s = i
-            if l == nex:
-                e = i
+        s,e = lineroutedirection(cur,prev,nex)
         if s > e:
+            dest_a = ''
             if 'dest_a' in data[cur]:
-                cmd.append(data[cur]['dest_a'])
+                dest_a = data[cur]['dest_a']
+            if 'local_dests' in data[cur]:
+                for local in data[cur]['local_dests']:
+                  if prev in local['links'] and 'dest_a' in local:
+                      dest_a = local['dest_a']
+            cmd.append(dest_a)     
         else:
+            dest_b = ''
             if 'dest_b' in data[cur]:
-                cmd.append(data[cur]['dest_b'])
+                dest_b = data[cur]['dest_b']
+            if 'local_dests' in data[cur]:
+                for local in data[cur]['local_dests']:
+                  if prev in local['links'] and 'dest_b' in local:
+                      dest_b = local['dest_b']
+            cmd.append(dest_b) 
     if 'dest' in data[nex]:
         cmd.append(data[nex]['dest'])
     if final:
@@ -107,6 +131,7 @@ start_lis = {}
 adjac_lis = {}
 for node in data:
     #print(node)
+    print(node)
     start_lis[node] = data[node]['links']
     if data[node]['type'] == 'stop':
         adjac_lis[node] = []

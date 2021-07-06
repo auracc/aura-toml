@@ -1,3 +1,4 @@
+# The main line of the GOR
 name = "GOR"
 
 type = "line"
@@ -5,12 +6,33 @@ dest_a = "gor:north"
 dest_b = "gor:south"
 
 links = [
+#    "icenia-surface",
+#    "bloom",
+    "gabon",
+    "kaltstadt",
     "gor-september_crossing",
     "mount_augusta-surface",
     "little_ukraine",
     "csa",
     "south_augusta",       # connected to the GOR, lacking directional routing support to exit
-    "westminster"
+    "westminster",
+#    "barrow",
+#    "nyc",
+#    "kobylinski",
+#    "olympics",
+#    "hillshire",
+#    "jungle",
+#    "kraken",
+#    "xyphros",
+#    "goodsprings",
+#    "danville",
+#    "axochitlan",
+#    "laconia"
 ]
 
 surface = true
+
+[[local_dests]]
+dest_a = "gor:east"
+dest_b = "gor:west"
+links = ["gabon"]

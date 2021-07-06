@@ -12,7 +12,8 @@ z = 2215
 links = [
 "csr",
 "hits-christmas_crossing",
-"south_augusta"
+"south_augusta",
+"gabon"
 ]
 
 station = true
