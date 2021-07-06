@@ -1,0 +1,13 @@
+name = ["Westminster","Commonwealth","CW"]
+x = -7120
+z = 5099
+
+type = "stop"
+dest = "westminster"
+
+links = [
+"hits",
+"gor",
+"roma-cw"
+]
+station = true

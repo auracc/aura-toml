@@ -1,0 +1,11 @@
+# A crossing south of Little Leningrad, connects between the HITS and the MTA-Pripyat rail
+type = "crossing"
+
+x = -6700
+z = 3636
+
+links = [
+"hits",
+"mta-pripyat",
+"little_leningrad"
+]

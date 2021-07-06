@@ -7,5 +7,7 @@ dest_b = "hits:south"
 links = [
     "impasse",
     "hits-lumiere_crossing",
-    "hits-christmas_crossing"
+    "hits-christmas_crossing",
+    "little_leningrad_crossing",
+    "westminster"
 ]

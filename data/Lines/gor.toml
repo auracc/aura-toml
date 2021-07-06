@@ -9,7 +9,8 @@ links = [
     "mount_augusta-surface",
     "little_ukraine",
     "csa",
-    "south_augusta"       # connected to the GOR, lacking directional routing support to exit
+    "south_augusta",       # connected to the GOR, lacking directional routing support to exit
+    "westminster"
 ]
 
 surface = true

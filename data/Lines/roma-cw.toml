@@ -7,4 +7,5 @@ dest_b = "romacw:south"
 "links" = [
     "roma-cw-lannigrad_crossing",
     "roma-cw-pripyat_crossing",
+    "westminster"
 ]

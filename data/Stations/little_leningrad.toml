@@ -8,7 +8,7 @@ z = 3366
 
 links = [
 "csr",
-"mta-pripyat"
+"little_leningrad_crossing"
 ]
 
 station = true
