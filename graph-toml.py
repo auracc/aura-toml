@@ -10,11 +10,13 @@ def distance(n0,n1,n2):
     if not 'x' in data[n2] or not 'z' in data[n2]:
         return 0
     if not 'x' in data[n1] or not 'z' in data[n1]:
+        #return 0
         p1 = [data[n0]['x'],data[n0]['z']]
     else:
         p1 = [data[n1]['x'],data[n1]['z']]
     p2 = [data[n2]['x'],data[n2]['z']]
 
+    #print("DISTANCE",n0,n1,n2,dist(p1,p2))
     return dist(p1,p2)
 
 # Finds a path between 2 points
@@ -28,15 +30,17 @@ def pathfind(start,end):
     open_list = set([start])
     closed_list = set([])
     path = {}
+    dista = {}
     path[start] = start
+    dista[start] = 0
 
     while len(open_list) > 0:
         cn = None
         for n in open_list:
             if cn == None:
                 cn = n
-            elif distance(path[n],n,end) < distance(path[cn],cn,end):
-                cn = n 
+            elif dista[n] + distance(path[n],n,end) < dista[cn] + distance(path[cn],cn,end):
+                cn = n
         open_list.remove(cn)
         closed_list.add(cn)
         if cn == end:
@@ -51,6 +55,7 @@ def pathfind(start,end):
         for link in get_links(cn):
             if link not in closed_list:
                 path[link] = cn
+                dista[link] = dista[cn] + distance(path[cn],cn,link) + 0
                 open_list.add(link)
 
     return None
