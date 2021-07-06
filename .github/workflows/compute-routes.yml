@@ -38,7 +38,7 @@ jobs:
       - name: execute route compute script
         run: python graph-toml.py
 
-      - name: execute route compute script
+      - name: execute ccmap layer script
         run: python ccmap.py
       
       - name: Commits the data to the Repo
