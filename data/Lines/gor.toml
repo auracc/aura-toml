@@ -36,3 +36,7 @@ surface = true
 dest_a = "gor:east"
 dest_b = "gor:west"
 links = ["gabon"]
+
+[[local_dests]] # an ugly hack to allow routing to gor via south augusta 
+dest_a = "nexus"
+links = ["south_augusta"]

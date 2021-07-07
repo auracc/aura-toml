@@ -9,9 +9,12 @@ z = 3775
 
 links = [
     "mount_september",
-#    "gor",
+    "gor",
     "wesbury"
 ]
 
 station = true
 surface = true
+
+[link_dests]
+gor = "gor"

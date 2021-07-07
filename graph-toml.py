@@ -31,7 +31,9 @@ def lineroutedirection(cur,prev,nex):
 # Finds a path between 2 points
 def pathfind(start,end):
     def get_links(n):
-        if n == start:
+        if 'unsafe_links' in data[n] and path[n] in data[n]['unsafe_links']:
+            return []
+        elif n == start:
             return start_lis[n]
         else:
             return adjac_lis[n]

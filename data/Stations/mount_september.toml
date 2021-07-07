@@ -6,6 +6,8 @@ type = "stopjunction"
 dest = "september"
 dest_junction = "sept:thru"
 
+station = true
+
 x = -4947
 z = 2215
 
@@ -16,10 +18,12 @@ links = [
 "gabon"
 ]
 
-station = true
+unsafe_links = [
+"south_augusta"
+]
 
 [link_dests]
-hits-christmas_crossing = "hits"
+hits-christmas_crossing = "sept:hits"
 
 [bad_links]
 gabon = "gabon" # pending adding new entries to switches
