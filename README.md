@@ -25,4 +25,6 @@ The AURA database is composed of different nodes, classified into points and lin
 | surface (true/false)   | Wheter a node is located on the surface, default false       |
 | horse (true/false)     | Wheter a node can be accessed by horses, default false       |
 | [link_dests]           | Any node specific commands required to access a node's links |
+| [local_dests]          | Allows setting different directional routing commands for different stations |
+| [bad_links]            | Any connection that uses a non-standard dest, will be used instead of the standard one |
 

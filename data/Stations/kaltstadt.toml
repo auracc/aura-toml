@@ -1,0 +1,12 @@
+# station lacking a railswitch exit
+name = "Kaltstadt"
+
+type = "stop"
+
+x = -5659
+z = -1370
+
+links = [
+"gor",
+]
+

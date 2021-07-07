@@ -1,0 +1,14 @@
+name = ["Gabon","Salisbury"]
+
+type = "stop"
+dest = ".gabon"
+
+x = -3009
+z = -2309
+
+links = [
+"gor",
+"mount_september"
+]
+
+station = true
