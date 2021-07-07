@@ -17,7 +17,7 @@
 {"dest":"lusitania","horse":true,"id":"ccmap:aura/node/lusitania","name":"Lusitania (AURA)","station":true,"type":"stop","x":-7751,"z":-3560},
 {"id":"ccmap:aura/node/lusitania-lumiere_crossing","name":"Lusitania-Amsterdam Crossing (AURA)","type":"crossing","x":-8170,"z":-2745},
 {"dest":"mta","id":"ccmap:aura/node/mount_augusta-surface","name":"Mount Augusta (surface) (AURA)","station":true,"surface":true,"type":"stop","x":-6702,"z":3024},
-{"LinkDests":"hits-christmas_crossing: hits, ","dest":"september","dest_junction":"sept:thru","id":"ccmap:aura/node/mount_september","name":"Mount September (AURA)","station":true,"type":"stopjunction","x":-4947,"z":2215},
+{"LinkDests":"hits-christmas_crossing: sept:hits, ","dest":"september","dest_junction":"sept:thru","id":"ccmap:aura/node/mount_september","name":"Mount September (AURA)","station":true,"type":"stopjunction","x":-4947,"z":2215},
 {"dest":"september","id":"ccmap:aura/node/mount_september-surface","name":"Mount September (surface) (AURA)","station":true,"surface":true,"type":"stop","x":-4939,"z":2247},
 {"dest":"lumiere:na","horse":true,"id":"ccmap:aura/node/nouvelle_amsterdam","name":"Nouvelle Amsterdam (AURA)","station":true,"type":"stop","x":-8170,"z":-2665},
 {"dest":"lumiere:pic","id":"ccmap:aura/node/picardie","name":"Petite Picardie (AURA)","station":true,"suggested":false,"type":"stop","x":-8450,"z":-2850},
@@ -25,7 +25,7 @@
 {"dest":"pripyat","id":"ccmap:aura/node/pripyat","name":"Pripyat (AURA)","station":true,"type":"stop","x":6250,"z":2400},
 {"id":"ccmap:aura/node/roma-cw-lannigrad_crossing","name":"roma-cw-lannigrad_crossing (AURA)","type":"crossing","x":-10232,"z":760},
 {"id":"ccmap:aura/node/roma-cw-pripyat_crossing","name":"roma-cw-pripyat_crossing (AURA)","type":"crossing","x":-7455,"z":3776},
-{"dest":"sa","dest_stop":"sawc","id":"ccmap:aura/node/south_augusta","name":"South Augusta (AURA)","station":true,"surface":true,"type":"junctionstop","x":-6041,"z":3775},
+{"LinkDests":"gor: gor, ","dest":"sa","dest_stop":"sawc","id":"ccmap:aura/node/south_augusta","name":"South Augusta (AURA)","station":true,"surface":true,"type":"junctionstop","x":-6041,"z":3775},
 {"dest":"wesbury","id":"ccmap:aura/node/wesbury","name":"Wesbury (AURA)","station":true,"surface":true,"type":"stop","x":-5130,"z":3380},
 {"dest":"westminster","id":"ccmap:aura/node/westminster","name":"Westminster (AURA)","station":true,"type":"stop","x":-7120,"z":5099},
 {"dest_a":"csr:west","dest_b":"csr:east","distance":2263,"id":"ccmap:aura/line/csr","line":[[[-6682,3366],[-6403,3504],[-5637,2943],[-4947,2215]]],"name":"CSR (AURA)","type":"line"},
@@ -44,4 +44,4 @@
 {"distance":80,"id":"ccmap:aura/link/lusitania-lumiere_crossing/nouvelle_amsterdam","line":[[[-8170,-2745],[-8170,-2665]]],"name":"Nouvelle Amsterdam - Lusitania-Amsterdam Crossing (AURA)","type":"link"},
 {"distance":299,"id":"ccmap:aura/link/lusitania-lumiere_crossing/picardie","line":[[[-8170,-2745],[-8450,-2850]]],"name":"Petite Picardie - Lusitania-Amsterdam Crossing (AURA)","type":"link"},
 {"distance":1905,"id":"ccmap:aura/link/mount_september/south_augusta","line":[[[-4947,2215],[-6041,3775]]],"name":"South Augusta - Mount September (AURA)","type":"link"},
-{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1625617836,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
+{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1625659168,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
