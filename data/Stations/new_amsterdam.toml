@@ -1,4 +1,4 @@
-name = ["Nouvelle Amsterdam","New Amsterdam","NA"]
+name = ["New Amsterdam","Nouvelle-Amsterdam","","NA"]
 
 type = "stop"
 dest = "lumiere:na"
