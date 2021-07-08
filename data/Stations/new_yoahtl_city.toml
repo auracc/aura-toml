@@ -1,0 +1,11 @@
+name = ["New Yoahtl City","NYC","Yoahtl"]
+
+type = "stop"
+dest = "nyc"
+
+x = -5000
+z = 6888
+
+links = ["gor"]
+
+station = true

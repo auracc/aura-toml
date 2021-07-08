@@ -1,0 +1,12 @@
+name = ["Barrow"]
+
+type = "stop"
+dest = "barrow"
+
+x = -5511
+z = 6535
+
+links = ["gor"]
+
+station = true
+surface = true

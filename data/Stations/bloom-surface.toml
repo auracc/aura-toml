@@ -1,0 +1,12 @@
+name = ["Bloom (surface)","Bloom"]
+
+type = "stop"
+dest = "bloom"
+
+x = -2325
+z = -2625
+
+links = ["gor"]
+
+station = true
+surface = true

@@ -1,0 +1,12 @@
+name = ["Icenia (surface)","Icenia"]
+
+type = "stop"
+dest = "icenia"
+
+x = -1655
+z = -1430
+
+links = ["gor"]
+
+station = true
+surface = true
