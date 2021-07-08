@@ -6,8 +6,8 @@ dest_a = "gor:north"
 dest_b = "gor:south"
 
 links = [
-#    "icenia-surface",
-#    "bloom",
+    "icenia-surface",
+    "bloom-surface",
     "gabon",
     "kaltstadt",
     "gor-september_crossing",
@@ -16,8 +16,8 @@ links = [
     "csa",
     "south_augusta",       # connected to the GOR, lacking directional routing support to exit
     "westminster",
-#    "barrow",
-#    "nyc",
+    "barrow",
+    "new_yoahtl_city",
 #    "kobylinski",
 #    "olympics",
 #    "hillshire",
@@ -35,8 +35,13 @@ surface = true
 [[local_dests]]
 dest_a = "gor:east"
 dest_b = "gor:west"
-links = ["gabon"]
+links = ["icenia-surface","bloom-surface","gabon"]
 
 [[local_dests]] # an ugly hack to allow routing to gor via south augusta 
 dest_a = "nexus"
 links = ["south_augusta"]
+
+[[local_dests]]
+dest_a = "gor:west"
+dest_b = "gor:east"
+links = ["barrow","new_yoahtl_city"]
