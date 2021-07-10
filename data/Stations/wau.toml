@@ -1,4 +1,4 @@
-name = ["Little Lannigrad","LLg","Lannigrad"]
+name = ["Western Agricultural Union","WAU"]
 
 type = "stop"
 dest = ".lanni"
@@ -7,7 +7,7 @@ x = -11940
 z = 760
 
 links = [
-"roma-cw-lannigrad_crossing"
+"roma-cw-wau_crossing"
 ]
 
 station = true
