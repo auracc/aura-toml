@@ -1,0 +1,11 @@
+name = "Terestai"
+
+type = "stop"
+dest = "terestai"
+
+x = 4215
+z = 5350
+
+links = ["prip-carson_crossing"]
+
+station = true
