@@ -26,6 +26,7 @@
 {"dest":"lumiere:pic","id":"ccmap:aura/node/picardie","name":"Petite Picardie (AURA)","station":true,"suggested":false,"type":"stop","x":-8450,"z":-2850},
 {"id":"ccmap:aura/node/prip-carson_crossing","name":"prip-carson_crossing (AURA)","type":"crossing","x":4200,"z":2500},
 {"dest":"pripyat","id":"ccmap:aura/node/pripyat","name":"Pripyat (AURA)","station":true,"type":"stop","x":6250,"z":2400},
+{"dest":"spqr","id":"ccmap:aura/node/roma","name":"SPQR (AURA)","type":"stop","x":-10686,"z":-5869},
 {"id":"ccmap:aura/node/roma-cw-pripyat_crossing","name":"roma-cw-pripyat_crossing (AURA)","type":"crossing","x":-7455,"z":3776},
 {"id":"ccmap:aura/node/roma-cw-wau_crossing","name":"roma-cw-wau_crossing (AURA)","type":"crossing","x":-10232,"z":760},
 {"LinkDests":"gor: gor, ","dest":"sa","dest_stop":"sawc","id":"ccmap:aura/node/south_augusta","name":"South Augusta (AURA)","station":true,"surface":true,"type":"junctionstop","x":-6041,"z":3775},
@@ -38,7 +39,7 @@
 {"dest_a":"hits:north","dest_b":"hits:south","distance":10258,"id":"ccmap:aura/line/hits","line":[[[-6700,-5100],[-6700,-2533],[-6700,500],[-6700,3636],[-7120,5099]]],"name":"HITS (AURA)","type":"line"},
 {"distance":1237,"id":"ccmap:aura/line/lusitania-lumiere","line":[[[-7751,-3560],[-8170,-2745],[-7928,-2534]]],"name":"Lusitania - Lumi\u00e8re Rail (AURA)","type":"line"},
 {"dest_a":"prip:west","dest_b":"prip:east","distance":13845,"id":"ccmap:aura/line/mta-pripyat","line":[[[-7455,3776],[-6700,3636],[-6403,3504],[-5082,3636],[-2711,3636],[4200,2500],[6250,2400]]],"name":"MtA - Pripyat (AURA)","type":"line"},
-{"dest_a":"romacw:north","dest_b":"romacw:south","distance":5463,"id":"ccmap:aura/line/roma-cw","line":[[[-10232,760],[-7455,3776],[-7120,5099]]],"name":"SPQR - Westminster Rail (AURA)","type":"line"},
+{"dest_a":"romacw:north","dest_b":"romacw:south","distance":12107,"id":"ccmap:aura/line/roma-cw","line":[[[-10686,-5869],[-10232,760],[-7455,3776],[-7120,5099]]],"name":"SPQR - Westminster Rail (AURA)","type":"line"},
 {"distance":750,"id":"ccmap:aura/link/carson/prip-carson_crossing","line":[[[4200,1750],[4200,2500]]],"name":"Carson - prip-carson_crossing (AURA)","type":"link"},
 {"distance":4921,"id":"ccmap:aura/link/gabon/mount_september","line":[[[-3009,-2309],[-4947,2215]]],"name":"Gabon - Mount September (AURA)","type":"link"},
 {"distance":674,"id":"ccmap:aura/link/gor-september_crossing/mount_september-surface","line":[[[-5575,2023],[-4939,2247]]],"name":"Mount September (surface) - gor-september_crossing (AURA)","type":"link"},
@@ -50,4 +51,4 @@
 {"distance":1905,"id":"ccmap:aura/link/mount_september/south_augusta","line":[[[-4947,2215],[-6041,3775]]],"name":"South Augusta - Mount September (AURA)","type":"link"},
 {"distance":2850,"id":"ccmap:aura/link/prip-carson_crossing/terestai","line":[[[4200,2500],[4215,5350]]],"name":"Terestai - prip-carson_crossing (AURA)","type":"link"},
 {"distance":1708,"id":"ccmap:aura/link/roma-cw-wau_crossing/wau","line":[[[-10232,760],[-11940,760]]],"name":"Western Agricultural Union - roma-cw-wau_crossing (AURA)","type":"link"},
-{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1626133507,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
+{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1626299850,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
