@@ -5,9 +5,9 @@ dest_a = "romacw:north"
 dest_b = "romacw:south"
 
 "links" = [
-#    "roma",
-#    "imc",
+    "roma",
     "roma-cw-wau_crossing",
+#    "imc",
     "roma-cw-pripyat_crossing",
     "westminster"
 ]

@@ -1,0 +1,8 @@
+name = ["SPQR","Roma"]
+
+type = "stop"
+dest = "spqr"
+x = -10686
+z = -5869
+
+links = ["roma-cw"]
