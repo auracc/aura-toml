@@ -6,3 +6,5 @@ x = -10686
 z = -5869
 
 links = ["roma-cw"]
+
+station = true
