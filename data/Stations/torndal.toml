@@ -1,0 +1,13 @@
+x = -403
+z = 8166
+
+type = "junction"
+dest = "torndal"
+
+links = [
+ "nro1_junction",
+ "nro2_junction",
+ "il'olmhir",
+]
+
+station = true

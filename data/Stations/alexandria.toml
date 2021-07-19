@@ -1,0 +1,12 @@
+name = "Alexandria"
+x = 471
+z = 8209
+
+type = "stop"
+dest = "alexandria"
+
+links = [
+ "palex_junction",
+]
+
+station = true

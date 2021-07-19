@@ -1,0 +1,12 @@
+name = "Jevoghnya"
+x = -679
+z = 7935
+
+type = "stop"
+dest = "jevoghnya"
+
+links = [
+ "nro1_junction",
+]
+
+station = true

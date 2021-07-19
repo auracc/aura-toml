@@ -1,0 +1,12 @@
+name = "Pacem"
+
+type = "stop"
+dest = "pacem"
+
+x = -540
+z = 9800
+
+links = [
+"pp_junction"
+]
+station = true

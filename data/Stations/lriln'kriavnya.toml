@@ -1,0 +1,12 @@
+name = "Lriln'Kriavnya"
+x = -108
+z = 8838
+
+type = "stop"
+dest = "lriln'kriavnya"
+
+links = [
+ "kro'ushro"
+]
+
+station = true

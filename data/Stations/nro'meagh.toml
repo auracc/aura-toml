@@ -1,0 +1,12 @@
+name = "Nro'Meagh"
+x = -348
+z = 8364
+
+type = "stop"
+dest = "nro'meagh"
+
+links = [
+ "nro2_junction"
+]
+
+station = true

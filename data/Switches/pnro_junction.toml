@@ -1,0 +1,16 @@
+# KANI Junction
+x = 380
+z = 8208
+
+type = "junction"
+dest = "j:pnro"
+
+links = [
+ 'prip-nro_crossing',
+ 'nro1_junction',
+ 'palex_junction',
+ 'pp_junction',
+]
+
+[link_dests]
+prip-nro_crossing = "nro:prip"

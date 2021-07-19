@@ -1,0 +1,12 @@
+name = "Hiyo'Mek"
+x = 447
+z = 8360
+
+type = "stop"
+dest = "hiyo'mek"
+
+links = [
+ "pniyo_junction"
+]
+
+station = true

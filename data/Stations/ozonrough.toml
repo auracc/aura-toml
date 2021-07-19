@@ -1,0 +1,12 @@
+name = "Ozonrough"
+x = 1140
+z = 8423
+
+type = "stop"
+dest = "ozonrough"
+
+links = [
+ "pniyo_junction"
+]
+
+station = true

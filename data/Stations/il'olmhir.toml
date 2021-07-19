@@ -1,0 +1,11 @@
+x = -453
+z = 7762
+
+type = "stop"
+dest = "il'olmhir"
+
+links = [
+ 'torndal',
+]
+
+station = true

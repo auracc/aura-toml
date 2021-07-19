@@ -1,0 +1,12 @@
+# KANI Junction
+x = -402
+z = 8359
+
+type = "junction"
+dest = "j:nro2"
+
+links = [
+ "torndal",
+ "nro'meagh",
+ "kro'ushro",
+]

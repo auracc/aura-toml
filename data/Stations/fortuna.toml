@@ -1,0 +1,12 @@
+name = "Fortuna"
+
+type = "stop"
+dest = "fortuna"
+
+x = 5850
+z = 8450
+
+links = [
+"pp_junction"
+]
+station = true

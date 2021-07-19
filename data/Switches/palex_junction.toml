@@ -1,0 +1,12 @@
+# KANI junction
+type = "junction"
+dest = "j:palex"
+
+x = 448
+z = 8213
+
+links = [
+  "pnro_junction",
+  "alexandria",
+  "pniyo_junction",
+}

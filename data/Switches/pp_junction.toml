@@ -1,0 +1,14 @@
+#KANI junction
+x = 381
+z = 9721
+
+type = "junction"
+dest = "j:pp"
+
+links = [
+ "pnro_junction",
+ 'hjaltland',
+ 'fortuna',
+ 'pacem',
+ "forta'are",
+]

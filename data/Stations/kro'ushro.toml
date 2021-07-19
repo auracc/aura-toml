@@ -1,0 +1,16 @@
+name = "Kro'Ushro"
+
+type = "junction"
+dest = "kro'ushro"
+
+x = -406
+z = 8734
+
+links = [
+"nro2_junction",
+"topha'nya",
+"socalist_ruler",
+"lriln'kriavnya"
+]
+
+station = true

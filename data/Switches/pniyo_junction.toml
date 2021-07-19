@@ -1,0 +1,12 @@
+# KANI junction
+type = "junction"
+dest = "j:pniyo"
+
+x = 449
+z = 8336
+
+links = [
+  "palex_junction",
+  "hiyo'mek",
+  "ozonrough"
+}

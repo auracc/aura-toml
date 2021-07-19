@@ -1,0 +1,8 @@
+type = "crossing"
+x = 380
+z = 3636
+
+links=[
+"pnro_junction",
+"mta-pripyat",
+]

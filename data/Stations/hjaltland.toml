@@ -1,0 +1,12 @@
+name = "Hjaltland"
+
+type = "stop"
+dest = "hjaltland"
+
+x = -2941
+z = 10794
+
+links = [
+#"hits",
+"pp_junction"]
+station = true

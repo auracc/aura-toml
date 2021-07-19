@@ -1,0 +1,12 @@
+# KANI Junction
+x = -689
+z = 8094
+
+type = "junction"
+dest = "j:nro1"
+
+links = [
+ "pnro_junction",
+ "torndal",
+ "jevoghnya",
+]

@@ -1,0 +1,10 @@
+name = "Topha'Nya"
+
+type = "stop"
+dest = "topha'nya"
+
+x = -696
+z = 8667
+
+links = ["kro'ushro"]
+station = true

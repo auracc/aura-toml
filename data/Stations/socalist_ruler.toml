@@ -1,0 +1,12 @@
+name = "Socalist_Ruler"
+x = -529
+z = 8588
+
+type = "stop"
+dest = "socalist_ruler"
+
+links = [
+ "kro'ushro"
+]
+
+station = true

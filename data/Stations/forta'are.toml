@@ -1,0 +1,12 @@
+name = "Forta'Are"
+x = 274
+z = 9130
+
+type = "stop"
+dest = "forta'are"
+
+links = [
+ "pp_junction"
+]
+
+station = true
