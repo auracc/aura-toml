@@ -8,7 +8,7 @@ x = -6041
 z = 3775
 
 links = [
-    "mta_internal",
+    "mta-sa_crossing",
     "gor",
     "wesbury"
 ]
