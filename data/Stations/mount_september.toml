@@ -18,6 +18,11 @@ links = [
 "gabon"
 ]
 
+
+unsafe_links = [
+"mta-walton_crossing" # result of mts station design and south augusta's lack of an AURA specific dest
+]
+
 [link_dests]
 hits-christmas_crossing = "sept:hits"
 mta-walton_crossing = "sept:mta"
