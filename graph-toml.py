@@ -5,6 +5,7 @@ import toml
 import json
 
 print("Computing Routes")
+SWITCH_DEBUFF = 250
 
 def distance(n0,n1,n2):
     if not 'x' in data[n2] or not 'z' in data[n2]:
@@ -75,7 +76,11 @@ def pathfind(start,end):
                       hi,lo = e,s
                     for i in range(lo,hi):
                       dista_line += distance(None,data[cn]['links'][i],data[cn]['links'][i+1])
-                dista[link] = dista[cn] + distance(path[cn],cn,link) + dista_line
+
+                debuff = 0
+                if data[cn]["type"] in ["junction","stopjunction","junctionstop","crossing"]:
+                    debuff = SWITCH_DEBUFF
+                dista[link] = dista[cn] + distance(path[cn],cn,link) + dista_line + debuff
                 open_list.add(link)
 
     return None
