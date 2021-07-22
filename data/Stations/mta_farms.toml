@@ -1,0 +1,11 @@
+# The Mta MegaFarms
+name = "MTA Farms"
+
+type = "stop"
+dest = "megafarms"
+
+x = -6175
+z = 2950
+
+links = ["mta-farms_crossing"]
+station = true

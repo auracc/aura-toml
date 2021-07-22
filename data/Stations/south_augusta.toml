@@ -8,7 +8,7 @@ x = -6041
 z = 3775
 
 links = [
-    "mount_september",
+    "mta-sa_crossing",
     "gor",
     "wesbury"
 ]
@@ -18,3 +18,4 @@ surface = true
 
 [link_dests]
 gor = "gor"
+mta_internal = "sa:north"

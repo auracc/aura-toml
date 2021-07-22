@@ -1,0 +1,6 @@
+type = "crossing"
+
+x = -6700
+z = 3000
+
+links = ["hits","mta_internal"]

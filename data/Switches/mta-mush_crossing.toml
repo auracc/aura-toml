@@ -1,0 +1,9 @@
+type = "crossing"
+
+x = -5906
+z = 3000
+
+links = [
+    "mta_internal",
+    "mta_mushroom"
+]

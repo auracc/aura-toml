@@ -14,16 +14,18 @@ z = 2215
 links = [
 "csr",
 "hits-christmas_crossing",
-"south_augusta",
+"mta-walton_crossing",
 "gabon"
 ]
 
+
 unsafe_links = [
-"south_augusta"
+"mta-walton_crossing" # result of mts station design and south augusta's lack of an AURA specific dest
 ]
 
 [link_dests]
 hits-christmas_crossing = "sept:hits"
+mta-walton_crossing = "sept:mta"
 
 [bad_links]
 gabon = "gabon" # pending adding new entries to switches

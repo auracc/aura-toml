@@ -1,0 +1,10 @@
+name = ["Walton"]
+
+type = "stop"
+dest = "walton"
+
+x = -5550
+z = 2700
+
+links = ["mta-walton_crossing"]
+station = true
