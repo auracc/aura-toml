@@ -14,7 +14,7 @@ z = 2215
 links = [
 "csr",
 "hits-christmas_crossing",
-"south_augusta",
+"mta_internal",
 "gabon"
 ]
 
@@ -24,6 +24,7 @@ unsafe_links = [
 
 [link_dests]
 hits-christmas_crossing = "sept:hits"
+mta_internal = "sept:mta"
 
 [bad_links]
 gabon = "gabon" # pending adding new entries to switches

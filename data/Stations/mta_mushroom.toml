@@ -1,0 +1,11 @@
+# The Mta Mushroom Island, also known as Spartly Island
+name = ["Spartly Island","MTA Mushroom"]
+
+type = "stop"
+dest = "mta_mushroom"
+
+x = -5906
+z = 3250
+
+links = ["mta-mush_crossing"]
+station = true

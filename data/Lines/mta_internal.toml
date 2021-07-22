@@ -1,0 +1,19 @@
+# A line connecting the HITS/Mta Station to the Nexus-SW rail
+name = "Internal MtA rail"
+
+type = "line"
+dest_a = "mta:west"
+dest_b = "mta:east"
+
+links = [
+    "hits-mta_crossing",
+    "mta-farms_crossing",
+    "mta-sa_crossing",
+    "mta-mush_crossing",
+    "mta-walton_crossing"
+    # MtS Crossing
+    # Canopus
+    # MTA Nether
+    # Doom Island
+    # Nexus Crossing
+]

@@ -1,0 +1,9 @@
+type = "crossing"
+
+x = -6041
+z = 3000
+
+links = [
+    "mta_internal",
+    "south_augusta"
+]

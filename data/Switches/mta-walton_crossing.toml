@@ -1,0 +1,10 @@
+type = "crossing"
+
+x = -5700
+z = 3000
+
+links = [
+    "mta_internal",
+    "walton",
+    "mount_september"
+]
