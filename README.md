@@ -27,4 +27,5 @@ The AURA database is composed of different nodes, classified into points and lin
 | [link_dests]           | Any node specific commands required to access a node's links |
 | [local_dests]          | Allows setting different directional routing commands for different stations |
 | [bad_links]            | Any connection that uses a non-standard dest, will be used instead of the standard one |
+| [unsafe_links]         | When arriving at a junction from this destination, the junction will not be capable of routing the rider further |
 
