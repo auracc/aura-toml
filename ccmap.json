@@ -36,7 +36,7 @@
 {"id":"ccmap:aura/node/mta-sa_crossing","name":"mta-sa_crossing (AURA)","type":"crossing","x":-6041,"z":3000},
 {"id":"ccmap:aura/node/mta-walton_crossing","name":"mta-walton_crossing (AURA)","type":"crossing","x":-5700,"z":3000},
 {"dest":"megafarms","id":"ccmap:aura/node/mta_farms","name":"MTA Farms (AURA)","station":true,"type":"stop","x":-6175,"z":2950},
-{"dest":"mta_mushroom","id":"ccmap:aura/node/mta_mushroom","name":"Spartly Island (AURA)","station":true,"type":"stop","x":-5906,"z":3250},
+{"dest":"mta_mushroom","id":"ccmap:aura/node/mta_mushroom","name":"Spratly Island (AURA)","station":true,"type":"stop","x":-5906,"z":3250},
 {"dest":"lumiere:na","horse":true,"id":"ccmap:aura/node/new_amsterdam","name":"New Amsterdam (AURA)","station":true,"type":"stop","x":-8170,"z":-2665},
 {"dest":"nyc","id":"ccmap:aura/node/new_yoahtl_city","name":"New Yoahtl City (AURA)","station":true,"type":"stop","x":-5000,"z":6888},
 {"dest":"nro'meagh","id":"ccmap:aura/node/nro'meagh","name":"Nro'Meagh (AURA)","station":true,"type":"stop","x":-348,"z":8364},
@@ -92,7 +92,7 @@
 {"distance":299,"id":"ccmap:aura/link/lusitania-lumiere_crossing/picardie","line":[[[-8170,-2745],[-8450,-2850]]],"name":"Petite Picardie - Lusitania-Amsterdam Crossing (AURA)","type":"link"},
 {"distance":1087,"id":"ccmap:aura/link/mount_september/mta-walton_crossing","line":[[[-4947,2215],[-5700,3000]]],"name":"Mount September - mta-walton_crossing (AURA)","type":"link"},
 {"distance":50,"id":"ccmap:aura/link/mta-farms_crossing/mta_farms","line":[[[-6175,3000],[-6175,2950]]],"name":"MTA Farms - mta-farms_crossing (AURA)","type":"link"},
-{"distance":250,"id":"ccmap:aura/link/mta-mush_crossing/mta_mushroom","line":[[[-5906,3000],[-5906,3250]]],"name":"Spartly Island - mta-mush_crossing (AURA)","type":"link"},
+{"distance":250,"id":"ccmap:aura/link/mta-mush_crossing/mta_mushroom","line":[[[-5906,3000],[-5906,3250]]],"name":"Spratly Island - mta-mush_crossing (AURA)","type":"link"},
 {"distance":775,"id":"ccmap:aura/link/mta-sa_crossing/south_augusta","line":[[[-6041,3000],[-6041,3775]]],"name":"South Augusta - mta-sa_crossing (AURA)","type":"link"},
 {"distance":335,"id":"ccmap:aura/link/mta-walton_crossing/walton","line":[[[-5700,3000],[-5550,2700]]],"name":"Walton - mta-walton_crossing (AURA)","type":"link"},
 {"distance":54,"id":"ccmap:aura/link/nro'meagh/nro2_junction","line":[[[-348,8364],[-402,8359]]],"name":"Nro'Meagh - nro2_junction (AURA)","type":"link"},
@@ -107,4 +107,4 @@
 {"distance":4572,"id":"ccmap:aura/link/pnro_junction/prip-nro_crossing","line":[[[380,8208],[380,3636]]],"name":"prip-nro_crossing - pnro_junction (AURA)","type":"link"},
 {"distance":2850,"id":"ccmap:aura/link/prip-carson_crossing/terestai","line":[[[4200,2500],[4215,5350]]],"name":"Terestai - prip-carson_crossing (AURA)","type":"link"},
 {"distance":1708,"id":"ccmap:aura/link/roma-cw-wau_crossing/wau","line":[[[-10232,760],[-11940,760]]],"name":"Western Agricultural Union - roma-cw-wau_crossing (AURA)","type":"link"},
-{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1626986946,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
+{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1626987164,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
