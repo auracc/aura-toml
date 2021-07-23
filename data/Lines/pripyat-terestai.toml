@@ -1,0 +1,12 @@
+name = "Pripyat - Terestai"
+
+type = "line"
+dest_a = "tere:north"
+dest_b = "tere:south"
+
+"links" = [
+    "pripyat",
+    "carson_crossing",
+    "prip-carson_crossing",
+    "terestai"
+]

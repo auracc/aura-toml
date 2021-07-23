@@ -1,8 +1,9 @@
 type = "crossing"
 x = 4200
-z = 2500
+z = 2340
 
 links=[
 "pripyat-terestai",
-"mta-pripyat",
+"pripyat-lenin_isle",
+"carson"
 ]

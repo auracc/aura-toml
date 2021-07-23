@@ -1,0 +1,11 @@
+name = "Ponsportia"
+
+type = "stop"
+dest = "ponsportia"
+
+x = 3131
+z = 1103
+
+links = ["pripyat-lenin_isle"]
+
+station = true

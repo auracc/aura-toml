@@ -1,0 +1,11 @@
+name = "Maltovia"
+
+type = "stop"
+dest = "maltovia"
+
+x = 7346
+z = 6200
+
+links = ["ccc"]
+
+station = true

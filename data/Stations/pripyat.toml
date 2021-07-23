@@ -1,11 +1,24 @@
 name = ["Pripyat"]
 
-type = "stop"
+type = "stopjunction"
 dest = "pripyat"
+dest_junction = "prip:j"
 
 x = 6250
 z = 2400
 
-links = ["mta-pripyat"]
+links = [
+    "pripyat-lenin_isle",
+    "pripyat-terestai",
+    "mta-pripyat",
+    "panem",
+    "westgroove",
+    "ossenkirch",
+    "ccc",
+    "freedonia",
+    "threepton",
+    "pripyat-appomattox",
+    "caledonia"
+]
 
 station = true

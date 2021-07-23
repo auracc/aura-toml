@@ -6,6 +6,6 @@ dest = "terestai"
 x = 4215
 z = 5350
 
-links = ["prip-carson_crossing"]
+links = ["pripyat-terestai"]
 
 station = true

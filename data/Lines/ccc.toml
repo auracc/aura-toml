@@ -1,0 +1,13 @@
+name = "CCC"
+
+type = "line"
+dest_a = "ccc:north"
+dest_b = "ccc:south"
+
+links = [
+    "pripyat",
+#   "westgroove_junction",
+#   "georgia",
+#   "rowa",
+    "maltovia"
+]

@@ -1,0 +1,11 @@
+name = "Threepton"
+
+type = "stop"
+dest = "threepton"
+
+x = 7429
+z = 2333
+
+links = ["pripyat"]
+
+station = true

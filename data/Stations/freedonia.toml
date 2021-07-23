@@ -1,0 +1,11 @@
+name = "Freedonia"
+
+type = "stop"
+dest = "freedonia"
+
+x = 6734
+z = 373
+
+links = ["pripyat"]
+
+station = true
