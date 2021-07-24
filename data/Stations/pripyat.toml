@@ -8,8 +8,7 @@ x = 6250
 z = 2400
 
 links = [
-    "pripyat-lenin_isle",
-    "pripyat-terestai",
+    "tuff_junction",
     "mta-pripyat",
     "panem",
     "westgroove",
@@ -17,7 +16,7 @@ links = [
     "ccc",
     "freedonia",
     "threepton",
-    "pripyat-appomattox",
+ #   "pripyat-appomattox",
     "caledonia"
 ]
 

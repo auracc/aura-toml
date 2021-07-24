@@ -3,6 +3,7 @@ x = 4200
 z = 2500
 
 links=[
-"pripyat-terestai",
+"tuff_junction",
 "mta-pripyat",
+"terestai"
 ]

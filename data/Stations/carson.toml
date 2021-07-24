@@ -6,6 +6,6 @@ dest = "carson"
 x = 4200
 z = 1750
 
-links = ["carson_crossing"]
+links = ["tuff_junction"]
 
 station = true

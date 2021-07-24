@@ -1,0 +1,18 @@
+# A KANI switch
+name = "Tuff Junction"
+
+type = "junction"
+dest = "j:tuff"
+
+x = 4224
+z = 2340
+
+links = [
+    "carson",
+    "pripyat",
+#    "ponsportia",
+    "prip-carson_crossing"
+]
+
+[link_dests]
+prip-carson_crossing = "tuff:south"
