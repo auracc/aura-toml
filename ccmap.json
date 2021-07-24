@@ -60,6 +60,7 @@
 {"dest":"terestai","id":"ccmap:aura/node/terestai","name":"Terestai (AURA)","station":true,"type":"stop","x":4215,"z":5350},
 {"dest":"topha'nya","id":"ccmap:aura/node/topha'nya","name":"Topha'Nya (AURA)","station":true,"type":"stop","x":-696,"z":8667},
 {"dest":"torndal","id":"ccmap:aura/node/torndal","name":"Torndal (AURA)","station":true,"type":"junction","x":-403,"z":8166},
+{"LinkDests":"prip-carson_crossing: tuff:south, ","dest":"j:tuff","id":"ccmap:aura/node/tuff_junction","name":"Tuff Junction (AURA)","type":"junction","x":4224,"z":2340},
 {"dest":"walton","id":"ccmap:aura/node/walton","name":"Walton (AURA)","station":true,"type":"stop","x":-5550,"z":2700},
 {"dest":".lanni","id":"ccmap:aura/node/wau","name":"Western Agricultural Union (AURA)","station":true,"type":"stop","x":-11940,"z":760},
 {"dest":"wesbury","id":"ccmap:aura/node/wesbury","name":"Wesbury (AURA)","station":true,"surface":true,"type":"stop","x":-5130,"z":3380},
@@ -72,7 +73,7 @@
 {"dest_a":"mta:west","dest_b":"mta:east","distance":1000,"id":"ccmap:aura/line/mta_internal","line":[[[-6700,3000],[-6175,3000],[-6041,3000],[-5906,3000],[-5700,3000]]],"name":"Internal MtA rail (AURA)","type":"line"},
 {"dest_a":"romacw:north","dest_b":"romacw:south","distance":12107,"id":"ccmap:aura/line/roma-cw","line":[[[-10686,-5869],[-10232,760],[-7455,3776],[-7120,5099]]],"name":"SPQR - Westminster Rail (AURA)","type":"line"},
 {"distance":23,"id":"ccmap:aura/link/alexandria/palex_junction","line":[[[471,8209],[448,8213]]],"name":"Alexandria - palex_junction (AURA)","type":"link"},
-{"distance":750,"id":"ccmap:aura/link/carson/prip-carson_crossing","line":[[[4200,1750],[4200,2500]]],"name":"Carson - prip-carson_crossing (AURA)","type":"link"},
+{"distance":590,"id":"ccmap:aura/link/carson/tuff_junction","line":[[[4200,1750],[4224,2340]]],"name":"Carson - Tuff Junction (AURA)","type":"link"},
 {"distance":600,"id":"ccmap:aura/link/forta'are/pp_junction","line":[[[274,9130],[381,9721]]],"name":"Forta'Are - pp_junction (AURA)","type":"link"},
 {"distance":5614,"id":"ccmap:aura/link/fortuna/pp_junction","line":[[[5850,8450],[381,9721]]],"name":"Fortuna - pp_junction (AURA)","type":"link"},
 {"distance":4921,"id":"ccmap:aura/link/gabon/mount_september","line":[[[-3009,-2309],[-4947,2215]]],"name":"Gabon - Mount September (AURA)","type":"link"},
@@ -106,5 +107,7 @@
 {"distance":1513,"id":"ccmap:aura/link/pnro_junction/pp_junction","line":[[[380,8208],[381,9721]]],"name":"pp_junction - pnro_junction (AURA)","type":"link"},
 {"distance":4572,"id":"ccmap:aura/link/pnro_junction/prip-nro_crossing","line":[[[380,8208],[380,3636]]],"name":"prip-nro_crossing - pnro_junction (AURA)","type":"link"},
 {"distance":2850,"id":"ccmap:aura/link/prip-carson_crossing/terestai","line":[[[4200,2500],[4215,5350]]],"name":"Terestai - prip-carson_crossing (AURA)","type":"link"},
+{"distance":161,"id":"ccmap:aura/link/prip-carson_crossing/tuff_junction","line":[[[4200,2500],[4224,2340]]],"name":"Tuff Junction - prip-carson_crossing (AURA)","type":"link"},
+{"distance":2026,"id":"ccmap:aura/link/pripyat/tuff_junction","line":[[[6250,2400],[4224,2340]]],"name":"Pripyat - Tuff Junction (AURA)","type":"link"},
 {"distance":1708,"id":"ccmap:aura/link/roma-cw-wau_crossing/wau","line":[[[-10232,760],[-11940,760]]],"name":"Western Agricultural Union - roma-cw-wau_crossing (AURA)","type":"link"},
-{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1626988756,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
+{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1627116257,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
