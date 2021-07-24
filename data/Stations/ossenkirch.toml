@@ -1,0 +1,11 @@
+name = "Ossenkirch"
+
+type = "stop"
+dest = "ossenkirch"
+
+x = 6152
+z = 4429
+
+links = ["pripyat"]
+
+station = true

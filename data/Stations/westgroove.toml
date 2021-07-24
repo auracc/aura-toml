@@ -1,0 +1,11 @@
+name = "Westgroove"
+
+type = "stop"
+dest = "westgroove"
+
+x = 7000
+z = 2576
+
+links = ["pripyat"]
+
+station = true

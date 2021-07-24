@@ -1,0 +1,11 @@
+name = "Panem"
+
+type = "stop"
+dest = "panem"
+
+x = 5900
+z = 3100
+
+links = ["pripyat"]
+
+station = true

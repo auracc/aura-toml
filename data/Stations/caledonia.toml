@@ -1,0 +1,10 @@
+name = "Caledonia"
+
+type = "stop"
+dest = "caledonia"
+
+x = 8732
+z = 546
+
+links = ["pripyat"]
+station = true
