@@ -6,6 +6,9 @@ dest = "pripyat"
 x = 6250
 z = 2400
 
-links = ["mta-pripyat"]
+links = [
+    "mta-pripyat",
+    "tuff_junction"
+]
 
 station = true
