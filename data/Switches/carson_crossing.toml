@@ -1,9 +1,0 @@
-type = "crossing"
-x = 4200
-z = 2340
-
-links=[
-"pripyat-terestai",
-"pripyat-lenin_isle",
-"carson"
-]
