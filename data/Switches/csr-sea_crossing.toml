@@ -1,0 +1,9 @@
+type = "crossing"
+
+x = -6175
+z = 3366
+
+links = [
+    "csr",
+    "sea"
+]

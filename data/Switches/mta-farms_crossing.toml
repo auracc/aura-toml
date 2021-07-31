@@ -1,4 +1,4 @@
-# A 4-way crossing including an unfinished rail to sealand
+# A 4-way crossing renovated into a simpler design
 type = "crossing"
 
 x = -6175
@@ -7,5 +7,5 @@ z = 3000
 links = [
     "mta_internal",
     "mta_farms",
-#    "sealand"
+    "sea"
 ]

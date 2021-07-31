@@ -1,0 +1,10 @@
+name = ["Sealand"]
+
+type = "stop"
+dest = ".sealand"
+
+x = -6175
+z = 3219
+
+links = ["sea"]
+station = true

@@ -2,7 +2,7 @@
 name = "MTA Farms"
 
 type = "stop"
-dest = "megafarms"
+dest = ".megafarms"
 
 x = -6175
 z = 2950

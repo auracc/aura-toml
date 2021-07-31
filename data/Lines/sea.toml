@@ -1,0 +1,11 @@
+name = "Sealand Rail"
+
+type = "line"
+dest_a = "sea:north"
+dest_b = "sea:south"
+
+links = [
+    "mta-farms_crossing",
+    "sealand",
+    "csr-sea_crossing"
+]

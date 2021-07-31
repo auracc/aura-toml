@@ -7,6 +7,7 @@ dest_b = "csr:east"
 links = [
     "little_leningrad",
     "csa",
+    "csr-sea_crossing",
     "fuzzy_quarter",
     "mount_september"
 ]
