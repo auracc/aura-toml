@@ -2,7 +2,7 @@ name = ["South Augusta","SA"]
 
 type = "junctionstop"
 dest = "sa"
-dest_stop = "sawc"
+dest_stop = "sa:city"
 
 x = -6041
 z = 3775
@@ -17,5 +17,4 @@ station = true
 surface = true
 
 [link_dests]
-gor = "gor"
-mta_internal = "sa:north"
+mta_internal = "sa:northbound"
