@@ -2,9 +2,9 @@
 
 name = ["Mount September","MtS"]
 
-type = "stopjunction"
+type = "junctionstop"
 dest = "september"
-dest_junction = "sept:thru"
+dest_stop = "september:exit"
 
 station = true
 
