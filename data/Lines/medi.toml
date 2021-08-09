@@ -1,0 +1,14 @@
+name = "Medi Sea Overland Rail"
+
+type = "line"
+dest_a = "medi:aclock"
+dest_b = "medi:clock"
+
+links = [
+    "lusitania",
+    "medi-ll_crossing",
+    "centumcellas",
+    "olimpia"
+]
+
+surface = true

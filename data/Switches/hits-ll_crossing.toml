@@ -1,0 +1,10 @@
+type = "crossing"
+#dest = "c:lus"
+
+x = -6693
+z = -2865
+
+links = [
+    "hits",
+    "l_line"
+]

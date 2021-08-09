@@ -8,7 +8,11 @@ z = -2309
 
 links = [
 "gor",
-"mount_september"
+"mount_september",
+"l_line"
 ]
 
 station = true
+
+[link_dests]
+l_line = "gabon:ll"

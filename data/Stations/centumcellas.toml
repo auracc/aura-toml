@@ -1,0 +1,12 @@
+name = ["CentumCellas"]
+
+type = "stop"
+dest = ".centumcellas"
+
+x = -7393
+z = -3390
+
+links = ["medi"]
+
+station = true
+surface = true

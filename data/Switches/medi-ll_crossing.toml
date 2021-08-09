@@ -1,0 +1,10 @@
+type = "crossing"
+#dest = "c:ll"
+
+x = -7490
+z = -3537
+
+links = [
+    "medi",
+    "l_line"
+]

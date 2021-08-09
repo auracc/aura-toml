@@ -1,0 +1,12 @@
+name = "L Line"
+
+type = "line"
+dest_a = "ll:west"
+dest_b = "ll:east"
+
+links = [
+    "medi-ll_crossing",
+    "hits-ll_crossing",
+    "gabon",
+    "lambat"
+]

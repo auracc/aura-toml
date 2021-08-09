@@ -1,0 +1,16 @@
+name = ["Lambat"]
+
+type = "stop"
+dest = ".lambat"
+
+x = 7052
+z = -1616
+
+links = [
+"l_line"
+]
+
+station = true
+
+[link_dests]
+l_line = "lambat:ll"

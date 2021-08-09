@@ -1,0 +1,12 @@
+name = ["Olimpia"]
+
+type = "stop"
+dest = ".olimpia"
+
+x = -7271
+z = -3079
+
+links = ["medi"]
+
+station = true
+surface = true

@@ -1,12 +1,15 @@
 name = ["Lusitania"]
 
 type = "stop"
-dest = "lusitania"
+dest = ".lusitania"
 
 x = -7751
 z = -3560
 
-links = ["lusitania-lumiere"]
+links = [
+    "lusitania-lumiere",
+    "medi"
+]
 
 station = true
 horse = true
