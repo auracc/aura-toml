@@ -3,7 +3,7 @@
 {"dest":"bloom","id":"ccmap:aura/node/bloom-surface","name":"Bloom (surface) (AURA)","station":true,"surface":true,"type":"stop","x":-2325,"z":-2625},
 {"dest":"caledonia","id":"ccmap:aura/node/caledonia","name":"Caledonia (AURA)","station":true,"type":"stop","x":8732,"z":546},
 {"dest":"carson","id":"ccmap:aura/node/carson","name":"Carson (AURA)","station":true,"type":"stop","x":4200,"z":1750},
-{"dest":".centumcellas","id":"ccmap:aura/node/centumcellas","name":"CentumCellas (AURA)","station":true,"surface":true,"type":"stop","x":-7393,"z":-3390},
+{"dest":".centumcellas","id":"ccmap:aura/node/centumcellas","name":"Centum Cellas (AURA)","station":true,"surface":true,"type":"stop","x":-7393,"z":-3390},
 {"dest":".csa","dest_junction":".csa:j","horse":true,"id":"ccmap:aura/node/csa","name":"CSA (AURA)","station":true,"type":"stopjunction","x":-6403,"z":3504},
 {"id":"ccmap:aura/node/csr-sea_crossing","name":"csr-sea_crossing (AURA)","type":"crossing","x":-6175,"z":3366},
 {"dest":"forta'are","id":"ccmap:aura/node/forta'are","name":"Forta'Are (AURA)","station":true,"type":"stop","x":274,"z":9130},
@@ -134,4 +134,4 @@
 {"distance":2026,"id":"ccmap:aura/link/pripyat/tuff_junction","line":[[[6250,2400],[4224,2340]]],"name":"Pripyat - Tuff Junction (AURA)","type":"link"},
 {"distance":770,"id":"ccmap:aura/link/pripyat/westgroove","line":[[[6250,2400],[7000,2576]]],"name":"Pripyat - Westgroove (AURA)","type":"link"},
 {"distance":1708,"id":"ccmap:aura/link/roma-cw-wau_crossing/wau","line":[[[-10232,760],[-11940,760]]],"name":"Western Agricultural Union - roma-cw-wau_crossing (AURA)","type":"link"},
-{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1628511827,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
+{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1628512053,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
