@@ -4,7 +4,7 @@ z = 3504
 
 type = "stopjunction"
 dest = ".csa"
-dest_junction = ".csa:j"
+dest_junction = "csa:j"
 
 links = [
     "gor",
