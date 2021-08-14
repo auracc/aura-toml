@@ -1,0 +1,11 @@
+name = ["CSA (bay)"]
+
+type = "stop"
+dest = "csa:bay"
+
+x = -6259
+z = 3366
+
+links = ["csr"]
+
+station = true

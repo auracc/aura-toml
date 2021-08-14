@@ -4,9 +4,9 @@ type = "stop"
 dest = ".luk"
 
 x = -6555
-z = 3375
+z = 3366
 
-links = ["gor"]
+links = ["gor","csr"]
 
 station = true
 surface = true
