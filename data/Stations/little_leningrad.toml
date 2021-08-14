@@ -1,14 +1,15 @@
 name = ["Little Leningrad","LL"]
 
-type = "stop"
+type = "stopjunction"
 dest = ".ll"
+dest_junction = "ll:j"
 
 x = -6682
 z = 3366
 
 links = [
 "csr",
-"little_leningrad_crossing"
+"hits"
 ]
 
 station = true
