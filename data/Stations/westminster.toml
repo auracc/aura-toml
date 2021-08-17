@@ -2,7 +2,7 @@ name = ["Westminster","Commonwealth","CW"]
 x = -7120
 z = 5099
 
-type = "stop"
+type = "junctionstop"
 dest = "westminster"
 
 links = [
