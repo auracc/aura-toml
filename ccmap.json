@@ -79,7 +79,7 @@
 {"dest":".lanni","id":"ccmap:aura/node/wau","name":"Western Agricultural Union (AURA)","station":true,"type":"stop","x":-11940,"z":760},
 {"dest":"wesbury","id":"ccmap:aura/node/wesbury","name":"Wesbury (AURA)","station":true,"surface":true,"type":"stop","x":-5130,"z":3380},
 {"dest":"westgroove","id":"ccmap:aura/node/westgroove","name":"Westgroove (AURA)","station":true,"type":"stop","x":7000,"z":2576},
-{"dest":"westminster","id":"ccmap:aura/node/westminster","name":"Westminster (AURA)","station":true,"type":"stop","x":-7120,"z":5099},
+{"dest":"westminster","dest_stop":"westminster:exit","id":"ccmap:aura/node/westminster","name":"Westminster (AURA)","station":true,"type":"junctionstop","x":-7120,"z":5099},
 {"dest_a":"ccc:north","dest_b":"ccc:south","distance":3954,"id":"ccmap:aura/line/ccc","line":[[[6250,2400],[7346,6200]]],"name":"CCC (AURA)","type":"line"},
 {"dest_a":"csr:west","dest_b":"csr:east","distance":2302,"id":"ccmap:aura/line/csr","line":[[[-6682,3366],[-6555,3366],[-6403,3504],[-6259,3366],[-6175,3366],[-5637,2943],[-4947,2215]]],"name":"CSR (AURA)","type":"line"},
 {"dest_a":"gor:north","dest_b":"gor:south","distance":15348,"id":"ccmap:aura/line/gor","line":[[[-1655,-1430],[-2325,-2625],[-3009,-2309],[-5659,-1370],[-5575,2023],[-6702,3024],[-6555,3366],[-6403,3504],[-6041,3775],[-7120,5099],[-5511,6535],[-5000,6888]]],"name":"GOR (AURA)","surface":true,"type":"line"},
@@ -134,4 +134,4 @@
 {"distance":2026,"id":"ccmap:aura/link/pripyat/tuff_junction","line":[[[6250,2400],[4224,2340]]],"name":"Pripyat - Tuff Junction (AURA)","type":"link"},
 {"distance":770,"id":"ccmap:aura/link/pripyat/westgroove","line":[[[6250,2400],[7000,2576]]],"name":"Pripyat - Westgroove (AURA)","type":"link"},
 {"distance":1708,"id":"ccmap:aura/link/roma-cw-wau_crossing/wau","line":[[[-10232,760],[-11940,760]]],"name":"Western Agricultural Union - roma-cw-wau_crossing (AURA)","type":"link"},
-{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1628918667,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
+{"distance":992,"id":"ccmap:aura/link/south_augusta/wesbury","line":[[[-6041,3775],[-5130,3380]]],"name":"South Augusta - Wesbury (AURA)","type":"link"}],"info":{"last_update":1629190646,"version":"3.0.0-beta3"},"name":"Rails","presentations":[{"name":"Rails and Stops (AURA)","style_base":{"color":"#0077ff"},"zoom_styles":{"-2":{"name":"$name"},"-6":{"name":null}}}]}
