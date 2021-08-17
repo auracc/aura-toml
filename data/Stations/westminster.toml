@@ -4,6 +4,7 @@ z = 5099
 
 type = "junctionstop"
 dest = "westminster"
+dest_stop = "westminster:exit"
 
 links = [
 "hits",
