@@ -18,6 +18,7 @@ The AURA database is composed of different nodes, classified into points and lin
 | dest_stop              | The command used to enable stop functionality on the node (junctionstop) |
 | dest_a                 | The command used to route the rider towards the beggining of the line |
 | dest_b                 | The command used to route the rider towards the end of the line |
+| loop                   | Wheter this line is a loop, default false |
 | x,z                    | The x and z coordinates of the node, not used for lines      |
 | links                  | An array of all the nodes connected to this                  |
 | station (true/false)   | Wheter this is an intended start or end point for travel, default false |
