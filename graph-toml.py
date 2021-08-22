@@ -19,16 +19,53 @@ def distance(n0,n1,n2):
 
     #print("DISTANCE",n0,n1,n2,dist(p1,p2))
     return dist(p1,p2)
-    
-def lineroutedirection(cur,prev,nex):
-  s,e = 0,0
-  for i in range(len(data[cur]['links'])):
-      l = data[cur]['links'][i]
-      if l == prev:
-          s = i
-      if l == nex:
-          e = i
-  return s,e
+
+# Calculate the shortest route between 2 points on a line, output direction and distance
+def line_route(cur,prev,nex):
+    s,e = 0,0
+    cur_d = data[cur]
+    for i in range(len(cur_d['links'])):
+        l = cur_d['links'][i]
+        if l == prev:
+            s = i
+        if l == nex:
+            e = i
+    ldir = 0 # 0 = dest_a ; 1 = dest_b
+    dist = 0
+    # Hacky solution for looping lines
+    if 'loop' in cur_d and cur_d['loop'] == True:
+        # Loop Dir A
+        dist_a = 0
+        i = s
+        while (i != e):
+            u = i-1
+            if u < 0:
+                u = len(cur_d['links'])-1
+            dist_a += distance(None,cur_d['links'][i],cur_d['links'][u])
+            i = u
+        # Loop Dir B
+        dist_b = 0
+        i = s
+        while (i != e):
+            u = i+1
+            if u >= len(cur_d['links']):
+                u = 0
+            dist_b += distance(None,cur_d['links'][i],cur_d['links'][u])
+            i = u
+        # Use the shortest loop direction
+        dist = dist_a
+        if dist_a > dist_b:
+            dist = dist_b
+            ldir = 1
+    else:
+        if s > e:
+            hi,lo = s,e
+        else:
+            hi,lo = e,s
+            ldir = 1
+        for i in range(lo,hi):
+            dist += distance(None,cur_d['links'][i],cur_d['links'][i+1])
+    return ldir,dist
 # Finds a path between 2 points
 def pathfind(start,end):
     def get_links(n):
@@ -48,11 +85,13 @@ def pathfind(start,end):
 
     while len(open_list) > 0:
         cn = None
+        # Heuristics to determine which node to check first
         for n in open_list:
             if cn == None:
                 cn = n
             elif dista[n] + distance(path[n],n,end) < dista[cn] + distance(path[cn],cn,end):
                 cn = n
+        # -----
         open_list.remove(cn)
         closed_list.add(cn)
         if cn == end:
@@ -64,19 +103,13 @@ def pathfind(start,end):
             reconst_path.append(start)
             reconst_path.reverse()
             return reconst_path
+        # -----
         for link in get_links(cn):
             if link not in closed_list:
                 path[link] = cn
                 dista_line = 0
                 if data[cn]['type'] == 'line':
-                    s,e = lineroutedirection(cn,path[cn],link)
-                    if s > e:
-                      hi,lo = s,e
-                    else:
-                      hi,lo = e,s
-                    for i in range(lo,hi):
-                      dista_line += distance(None,data[cn]['links'][i],data[cn]['links'][i+1])
-
+                    ldir,dista_line = line_route(cn,path[cn],link)
                 debuff = 0
                 if data[cn]["type"] in ["junction","stopjunction","junctionstop","crossing"]:
                     debuff = SWITCH_DEBUFF
@@ -91,8 +124,8 @@ def getdest(prev,cur,nex,final):
     if 'link_dests' in data[cur] and nex in data[cur]['link_dests']:
         cmd.append(data[cur]['link_dests'][nex])
     if data[cur]['type'] == 'line':
-        s,e = lineroutedirection(cur,prev,nex)
-        if s > e:
+        ldir,dist = line_route(cur,prev,nex)
+        if ldir == 0:
             dest_a = None
             if 'dest_a' in data[cur]:
                 dest_a = data[cur]['dest_a']
