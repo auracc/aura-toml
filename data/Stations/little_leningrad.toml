@@ -1,6 +1,6 @@
 name = ["Little Leningrad","LL"]
 
-type = "stopjunction"
+type = "stop"
 dest = ".ll"
 dest_junction = "ll:j"
 
