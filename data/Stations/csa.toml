@@ -1,15 +1,12 @@
 name = ["CSA","Confederation of Socialist Augusta"]
-x = -6403
+x = -6390
 z = 3504
 
-type = "stopjunction"
-dest = ".csa"
-dest_junction = "csa:j"
+type = "stop"
+dest = "csa"
 
 links = [
-    "gor",
-    "mta-pripyat",
-    "csr"
+    "csa_junction"
 ]
 
 station = true

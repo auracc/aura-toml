@@ -13,7 +13,7 @@ links = [
     "gor-september_crossing",
     "mount_augusta-surface",
     "little_ukraine",
-    "csa",
+    "csa_junction",
     "south_augusta",       # connected to the GOR, lacking directional routing support to exit
     "westminster",
     "barrow",
