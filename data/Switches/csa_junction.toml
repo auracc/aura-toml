@@ -1,0 +1,17 @@
+x = -6403
+z = 3504
+
+type = "junction"
+dest = "j:csa"
+
+links = [
+    "gor",
+    "mta-pripyat",
+    "csr",
+    "csa"
+]
+
+[link_dests]
+gor = "csa:gor"
+mta-pripyat = "csa:prip"
+csr = "csa:csr"
