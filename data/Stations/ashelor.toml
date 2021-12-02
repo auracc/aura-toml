@@ -1,0 +1,12 @@
+name = "Ashelor"
+
+type = "stop"
+dest = "ashelor"
+
+x = 4320
+z = 4857
+
+links = [
+"terestai"
+]
+station = true

@@ -1,0 +1,13 @@
+# A SARS switch
+name = ["Dithmarschen","Dith"]
+
+type = "stop"
+dest = "dith"
+
+x = 3900
+z = 4900
+
+links = [
+"terestai"
+]
+station = true

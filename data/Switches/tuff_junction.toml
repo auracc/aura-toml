@@ -11,8 +11,5 @@ links = [
     "carson",
     "pripyat",
 #    "ponsportia",
-    "prip-carson_crossing"
+    "tere:south"
 ]
-
-[link_dests]
-prip-carson_crossing = "tuff:south"

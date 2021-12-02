@@ -1,0 +1,11 @@
+name = "Tere Rail"
+
+type = "line"
+dest_a = "tere:north"
+dest_b = "tere:south"
+
+links = [
+    "tuff_junction",
+    "prip-carson_crossing",
+    "terestai"
+]

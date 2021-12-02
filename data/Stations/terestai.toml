@@ -1,11 +1,20 @@
+# Hybrid SARS/AURA switch, different modes depending on if j:tere is selected as a dest
 name = "Terestai"
 
-type = "stop"
-dest = "terestai"
+type = "junctionstop"
+dest = "j:tere"
+dest_stop = "terestai"
 
 x = 4215
 z = 5350
 
-links = ["prip-carson_crossing"]
+links = [
+    "tere",
+    "dithmarschen",
+    "ashelor",
+    #"adina", - connection messed up by a rogue switch
+    #"kaga",  - rail in very bad state
+    #"vinland"- untested
+]
 
 station = true
